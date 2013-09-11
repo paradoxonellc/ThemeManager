@@ -1,0 +1,22 @@
+{
+    "name": "paradox-one/theme-manager",
+    "description": "Provides a simplistic Theme Manager for Laravel 4.",
+    "keywords": ["themes", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ParadoxOne",
+            "email": "support@paradoxone.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "ParadoxOne\\ThemeManager": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
